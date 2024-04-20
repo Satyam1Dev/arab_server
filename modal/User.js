@@ -20,6 +20,10 @@ const signupSchema = new mongoose.Schema({
     type: String,
     required: true
   },
+  confirmPassword: {
+    type: String,
+    required: true
+  },
   avatar: {
     type: String // Assuming you'll store the URL of the avatar image
   },
